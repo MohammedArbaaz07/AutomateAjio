@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20220214 19:48:57.175" rpa="false" schemaversion="2">
+<suite id="s1" name="Ajio" source="C:\Users\Moolya\PycharmProjects\seleniumPython\TestCases\ajio.robot">
+<test id="s1-t1" name="ToOpenWebsite">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.ajio.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220214 19:48:57.575" level="INFO">Opening browser 'chrome' to base url 'https://www.ajio.com/'.</msg>
+<status status="PASS" starttime="20220214 19:48:57.575" endtime="20220214 19:49:03.256"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220214 19:49:03.256" endtime="20220214 19:49:03.660"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:08.695" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:03.695" endtime="20220214 19:49:08.695"/>
+</kw>
+<status status="PASS" starttime="20220214 19:48:57.566" endtime="20220214 19:49:08.695"/>
+</test>
+<test id="s1-t2" name="ToClickOnMen">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>class: alignTag</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220214 19:49:08.695" level="INFO">Clicking element 'class: alignTag'.</msg>
+<status status="PASS" starttime="20220214 19:49:08.695" endtime="20220214 19:49:13.810"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:18.821" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:13.810" endtime="20220214 19:49:18.821"/>
+</kw>
+<status status="PASS" starttime="20220214 19:49:08.695" endtime="20220214 19:49:18.821"/>
+</test>
+<test id="s1-t3" name="ToScrollDownandClickThatElement">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>//*[@id="appContainer"]/div[2]/div/div[23]/div/div/div/div/div[2]/a/img</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20220214 19:49:18.821" endtime="20220214 19:49:19.145"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:24.175" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:19.145" endtime="20220214 19:49:24.175"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="appContainer"]/div[2]/div/div[23]/div/div/div/div/div[2]/a/img</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220214 19:49:24.175" level="INFO">Clicking element '//*[@id="appContainer"]/div[2]/div/div[23]/div/div/div/div/div[2]/a/img'.</msg>
+<status status="PASS" starttime="20220214 19:49:24.175" endtime="20220214 19:49:27.690"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:32.705" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:27.690" endtime="20220214 19:49:32.705"/>
+</kw>
+<status status="PASS" starttime="20220214 19:49:18.821" endtime="20220214 19:49:32.705"/>
+</test>
+<test id="s1-t4" name="ToSelectParticularItem">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>//*[@id="products"]/div[3]/div[1]/div/div[5]/a/div/div[1]/img</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20220214 19:49:32.705" endtime="20220214 19:49:33.156"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:38.161" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:33.156" endtime="20220214 19:49:38.161"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="products"]/div[3]/div[1]/div/div[5]/a/div/div[1]/img</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220214 19:49:38.161" level="INFO">Clicking element '//*[@id="products"]/div[3]/div[1]/div/div[5]/a/div/div[1]/img'.</msg>
+<status status="PASS" starttime="20220214 19:49:38.161" endtime="20220214 19:49:38.310"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:43.314" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:38.310" endtime="20220214 19:49:43.314"/>
+</kw>
+<status status="PASS" starttime="20220214 19:49:32.705" endtime="20220214 19:49:43.314"/>
+</test>
+<test id="s1-t5" name="ToSwitchWindow">
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>NEW</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20220214 19:49:43.315" endtime="20220214 19:49:43.326"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:48.336" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:43.326" endtime="20220214 19:49:48.336"/>
+</kw>
+<status status="PASS" starttime="20220214 19:49:43.315" endtime="20220214 19:49:48.336"/>
+</test>
+<test id="s1-t6" name="ToSelectTheSize">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="appContainer"]/div[2]/div/div/div[2]/div/div[3]/div/div[6]/div[2]/div/div/div[4]/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220214 19:49:48.336" level="INFO">Clicking element '//*[@id="appContainer"]/div[2]/div/div/div[2]/div/div[3]/div/div[6]/div[2]/div/div/div[4]/div'.</msg>
+<status status="PASS" starttime="20220214 19:49:48.336" endtime="20220214 19:49:48.525"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:53.526" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:48.525" endtime="20220214 19:49:53.526"/>
+</kw>
+<status status="PASS" starttime="20220214 19:49:48.336" endtime="20220214 19:49:53.526"/>
+</test>
+<test id="s1-t7" name="AddingToCart">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>//*[@id="appContainer"]/div[2]/div/div/div[2]/div/div[3]/div/div[9]/div[1]/div[1]/div/span[2]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20220214 19:49:53.526" endtime="20220214 19:49:53.823"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:49:58.831" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:53.823" endtime="20220214 19:49:58.831"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="appContainer"]/div[2]/div/div/div[2]/div/div[3]/div/div[9]/div[1]/div[1]/div/span[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220214 19:49:58.831" level="INFO">Clicking element '//*[@id="appContainer"]/div[2]/div/div/div[2]/div/div[3]/div/div[9]/div[1]/div[1]/div/span[2]'.</msg>
+<status status="PASS" starttime="20220214 19:49:58.831" endtime="20220214 19:49:58.963"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:50:03.976" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:49:58.966" endtime="20220214 19:50:03.976"/>
+</kw>
+<status status="PASS" starttime="20220214 19:49:53.526" endtime="20220214 19:50:03.976"/>
+</test>
+<test id="s1-t8" name="ToCheckAddToBag">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="appContainer"]/div[1]/div/header/div[3]/div[2]/div[2]/a/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220214 19:50:03.976" level="INFO">Clicking element '//*[@id="appContainer"]/div[1]/div/header/div[3]/div[2]/div[2]/a/div'.</msg>
+<status status="PASS" starttime="20220214 19:50:03.976" endtime="20220214 19:50:06.256"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220214 19:50:11.265" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220214 19:50:06.261" endtime="20220214 19:50:11.265"/>
+</kw>
+<status status="PASS" starttime="20220214 19:50:03.976" endtime="20220214 19:50:11.265"/>
+</test>
+<test id="s1-t9" name="closeTheBrowser">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220214 19:50:11.265" endtime="20220214 19:50:13.783"/>
+</kw>
+<status status="PASS" starttime="20220214 19:50:11.265" endtime="20220214 19:50:13.783"/>
+</test>
+<status status="PASS" starttime="20220214 19:48:57.186" endtime="20220214 19:50:13.783"/>
+</suite>
+<statistics>
+<total>
+<stat pass="9" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="9" fail="0" skip="0" id="s1" name="Ajio">Ajio</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
